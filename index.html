@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Jake Combobox</title>
+    <link rel="stylesheet" href="css/jakeCombobox.css">
+    <script src="js/thirdParty/jquery-2.2.2.js"></script>
+    <script src="js/thirdParty/jquery-ui.js"></script>
+    <script src="js/jakeCombobox.js"></script>
+</head>
+<body>
+
+<label>Numbers</label>
+<select class="options">
+    <option>One</option>
+    <option>Two</option>
+    <option>Three</option>
+    <option>Four</option>
+    <option>Five</option>
+</select>
+
+<label>Letters</label>
+<select class="options">
+    <option>A</option>
+    <option>B</option>
+    <option>C</option>
+    <option>D</option>
+    <option>E</option>
+</select>
+
+<script>
+    (function ($) {
+        $('.options').combobox();
+    })(jQuery);
+</script>
+
+</body>
+</html>
