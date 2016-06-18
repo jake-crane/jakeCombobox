@@ -8,38 +8,36 @@ ul {
 
 input[type=text].txtbox {
     color: black;
-    height: 50px;
+    height: 25px;
     width: 260px;
-    font-size: 18px;
     border-top: 1px solid #f0f0f0;
     border-right: 0;
     border-left: 1px solid #f0f0f0;
     border-bottom: 1px solid #f0f0f0;
-    padding-left: 10px;
+    padding-left: 5px;
     outline: none;
 }
 
 .txtbox-btn {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 23px;
     border-top: 1px solid #f0f0f0;
     border-right: 1px solid #f0f0f0;
     border-bottom: 1px solid #f0f0f0;
     text-align: center;
     text-decoration: none;
-    line-height: 50px;
-    color: black;
+    line-height: 25px;
+    color: #585858;
     display: inline-block;
 }
 
 .combobox {
     position: relative;
-    width: 320px;
-    height: 50px;
+    width: 280px;
+    height: 25px;
 }
 
-.combobox input[type=text].txtbox,
-.combobox .txtbox-btn {
+.combobox input[type=text].txtbox, .combobox .txtbox-btn {
     position: absolute;
 }
 
@@ -48,15 +46,14 @@ input[type=text].txtbox {
 }
 
 .combobox + .combobox-options {
-    width: 320px;
+    width: 278px;
     position: absolute;
     background: white;
     color: black;
 }
 
 .combobox + .combobox-options li {
-    height: 50px;
-    padding: 12px;
+    height: 25px;
     display: table;
     width: 100%;
     cursor: pointer;
@@ -69,4 +66,5 @@ input[type=text].txtbox {
 .combobox + .combobox-options li span {
     display: table-cell;
     vertical-align: middle;
+    padding-left: 5px;
 }
