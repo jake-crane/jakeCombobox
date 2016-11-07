@@ -16,6 +16,8 @@ input[type=text].txtbox {
     border-bottom: 1px solid #f0f0f0;
     padding-left: 5px;
     outline: none;
+    -webkit-appearance: none; /*Ensure no shadows on iPhone Safari*/
+    border-radius: 0; /*Ensure no rounded borders on iPhone Safari*/
 }
 
 .txtbox-btn {
